@@ -1,0 +1,22 @@
+{
+  "name": "@billypon/react-template",
+  "description": "Template component for react",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p .",
+    "postbuild": "bin/post-build",
+    "lint": "tslint -p ."
+  },
+  "devDependencies": {
+    "@types/react": "16.9.11",
+    "react": "16.11.0",
+    "rxjs": "6.5.3",
+    "tslint": "5.20.0",
+    "typescript": "3.6.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "rxjs": "*"
+  }
+}
