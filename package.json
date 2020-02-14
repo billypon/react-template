@@ -1,7 +1,7 @@
 {
   "name": "@billypon/react-template",
   "description": "Template component for react",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && tsc -p .",
